@@ -1,13 +1,13 @@
 {
-  "name": "gulp-static-tools",
+  "name": "iodc.networkofinnovators.org",
   "version": "1.0.0",
-  "description": "",
+  "description": "### NOTE",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "None",
+  "license": "UNLICENSED",
   "dependencies": {
     "browser-sync": "^2.11.1",
     "event-stream": "^3.3.2",
@@ -26,5 +26,13 @@
     "md5": "^2.1.0",
     "minimist": "^1.2.0",
     "vinyl": "^1.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GovLab/iodc.networkofinnovators.org.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GovLab/iodc.networkofinnovators.org/issues"
+  },
+  "homepage": "https://github.com/GovLab/iodc.networkofinnovators.org#readme"
 }
