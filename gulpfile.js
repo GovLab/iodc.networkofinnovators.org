@@ -208,6 +208,11 @@ gulp.task('yaml', function () {
   .pipe(gulp.dest('source/data'));
 });
 
+gulp.task('cname', function () {
+  return gulp.src('source/templates/CNAME')
+  .pipe(gulp.dest('public'));
+});
+
 gulp.task('json', ['yaml'], function() {
   return gulp.src('source/data/**/*.json')
   .pipe(intercept(function(file) {
@@ -275,7 +280,7 @@ gulp.task('nunjucks', ['generateTemplates'], function() {
   .pipe(gulp.dest('public'));
 });
 
-var buildTasks = ['sass', 'js', 'img', 'nunjucks', 'libCss'];
+var buildTasks = ['sass', 'js', 'img', 'nunjucks', 'libCss', 'cname'];
 gulp.task('build', buildTasks, function () {
   util.log(util.colors.magenta('****'), 'Running build tasks:', buildTasks, util.colors.magenta('****'));
 })
