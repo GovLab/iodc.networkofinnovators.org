@@ -239,7 +239,7 @@ html {
   text-decoration: none;
   transition: all .4s ease;
   text-align: center;
-  padding-top: 15px;
+  padding-top: 13px;
   width: 200px;
   height: 48px;
   color: rgba(255, 255, 255, 0.8);
@@ -285,7 +285,7 @@ html {
   transition: all .4s ease;
   text-align: center;
   color: rgba(255, 255, 255, 0.8);
-  padding-top: 15px;
+  padding-top: 13px;
   width: 200px;
   height: 60px;
   color: rgba(255, 255, 255, 0.8);
